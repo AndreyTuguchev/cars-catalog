@@ -4,6 +4,7 @@ import { CarProps } from '@/types';
 import { Fragment } from 'react';
 import Image from 'next/image';
 import { Dialog, Transition } from '@headlessui/react';
+import { randomUUID } from 'crypto';
 
 interface CarDetailsProps {
   isOpen: boolean;
@@ -107,7 +108,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                       {Object.entries(car).map(([key, value]) => (
                         <div
                           className="flex justify-between gap-5 w-full text-right"
-                          key={key}
+                          key={crypto.randomUUID()}
                         >
                           <h4 className="text-gray capitalize">
                             {key.split('_').join(' ')}
