@@ -51,7 +51,7 @@ const SearchManufacturer = ({
             leaveTo="opacity-0"
             afterLeave={() => setQuery('')}
           >
-            <Combobox.Options>
+            <Combobox.Options className="absolute w-full max-h-60 bg-white overflow-y-scroll">
               {filteredManufacturers.length === 0 && query !== '' ? (
                 // if we don't have any option for car manufacturer name then display Create "{query}" at the search results
 
