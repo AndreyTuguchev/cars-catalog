@@ -2,7 +2,7 @@
 
 //  https://www.youtube.com/watch?v=pUNSHPyVryU
 //  Current time:
-// https://youtu.be/pUNSHPyVryU?t=1926
+// https://youtu.be/pUNSHPyVryU?t=2819
 
 import Image from 'next/image';
 
@@ -37,8 +37,8 @@ let Hero = () => {
             fill
             className="object-contain"
           />
-          <div className="hero__image-overlay"></div>
         </div>
+        <div className="hero__image-overlay"></div>
       </div>
     </div>
   );
