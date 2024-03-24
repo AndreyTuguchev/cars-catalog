@@ -53,6 +53,8 @@ export const yearsOfProduction = [
   { title: '2021', value: '2021' },
   { title: '2022', value: '2022' },
   { title: '2023', value: '2023' },
+  { title: '2024', value: '2024' },
+  { title: '2025', value: '2025' },
 ];
 
 export const fuels = [
@@ -85,17 +87,17 @@ export const footerLinks = [
     links: [
       { title: 'Events', url: '/' },
       { title: 'Blog', url: '/' },
-      // { title: 'Podcast', url: '/' },
-      // { title: 'Share', url: '/' },
+      { title: 'Podcast', url: '/' },
+      { title: 'Invite a friend', url: '/' },
     ],
   },
   {
     title: 'Socials',
     links: [
-      { title: 'LinkedIn', url: 'https://www.linkedin.com/in/andreytuguchev/' },
-      { title: 'GitHub', url: 'https://github.com/AndreyTuguchev/' },
-      // { title: 'Twitter', url: '/' },
-      // { title: 'Facebook', url: '/' },
+      { title: 'Discord', url: '/' },
+      { title: 'Instagram', url: '/' },
+      { title: 'Twitter', url: '/' },
+      { title: 'Facebook', url: '/' },
     ],
   },
 ];
