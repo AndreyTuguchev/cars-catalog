@@ -1,25 +1,37 @@
 'use client';
 
 import { CustomButtonProps } from '@/types';
-import React from 'react';
+import Image from 'next/image';
 
 let CustomButton = ({
   title,
   containerStyles,
   handleClick,
   btnType,
+  textStyles,
+  rightIcon,
 }: CustomButtonProps) => {
   return (
-    <div>
-      <button
-        disabled={false}
-        type={btnType || 'button'}
-        className={`custom-btn ${containerStyles}`}
-        onClick={handleClick}
-      >
-        <span className={`flex-1`}>{title}</span>
-      </button>
-    </div>
+    <button
+      disabled={false}
+      type={btnType || 'button'}
+      className={`custom-btn ${containerStyles}`}
+      onClick={handleClick}
+    >
+      <span className={`flex-1 ${textStyles}`}>{title}</span>
+
+      {/* if rightIcon exists then render the block below  */}
+      {rightIcon && (
+        <div className="relative w-6 h-6 ">
+          <Image
+            src={rightIcon}
+            alt="right icon"
+            fill
+            className="object-contain"
+          />
+        </div>
+      )}
+    </button>
   );
 };
 

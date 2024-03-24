@@ -1,8 +1,13 @@
 'use client';
 
+/**
+ * Add API data caching for 24 hours to minimize the API calls
+ *
+ */
+
 //  https://www.youtube.com/watch?v=pUNSHPyVryU
 //  Current time:
-// https://youtu.be/pUNSHPyVryU?t=4580  // searchBar finished - before fetching cars API
+// https://youtu.be/pUNSHPyVryU?t=6922  --- file CarDetails.tsx
 
 import Image from 'next/image';
 
