@@ -2,7 +2,7 @@
 
 //  https://www.youtube.com/watch?v=pUNSHPyVryU
 //  Current time:
-// https://youtu.be/pUNSHPyVryU?t=2819
+// https://youtu.be/pUNSHPyVryU?t=4580  // searchBar finished - before fetching cars API
 
 import Image from 'next/image';
 
