@@ -87,17 +87,16 @@ export const footerLinks = [
     links: [
       { title: 'Events', url: '/' },
       { title: 'Blog', url: '/' },
-      { title: 'Podcast', url: '/' },
-      { title: 'Invite a friend', url: '/' },
+      // { title: 'Share', url: '/' },
     ],
   },
   {
     title: 'Socials',
     links: [
-      { title: 'Discord', url: '/' },
-      { title: 'Instagram', url: '/' },
-      { title: 'Twitter', url: '/' },
-      { title: 'Facebook', url: '/' },
+      { title: 'LinkedIn', url: 'https://www.linkedin.com/in/andreytuguchev/' },
+      { title: 'GitHub', url: 'https://github.com/AndreyTuguchev/' },
+      // { title: 'Twitter', url: '/' },
+      // { title: 'Facebook', url: '/' },
     ],
   },
 ];
