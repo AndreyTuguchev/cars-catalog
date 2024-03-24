@@ -13,15 +13,16 @@ const Navbar = () => {
             alt="car hub logo"
             width={118}
             height={18}
+            priority
             className="object-contain"
           />
         </Link>
 
-        <CustomButton
+        {/* <CustomButton
           title="Sign In"
           btnType="button"
           containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
-        />
+        /> */}
       </nav>
     </header>
   );

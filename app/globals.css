@@ -11,6 +11,44 @@
   font-family: 'Manrope', sans-serif;
 }
 
+
+html {
+  scroll-padding-top: 30px;
+  scroll-behavior: smooth;
+}
+
+
+.hero__image:after{
+  content: '';
+  position: absolute;
+  background-color: #4d74ff;
+  z-index: -1;
+  width: 100vw;
+  height: 100vw;
+  border-radius: 100%;
+  bottom: 15%;
+
+  /* border-bottom: 130vw solid #4d74ff;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	min-height: 130vw;
+	width: 70vw; */
+}
+
+
+@media (max-width: 767px){
+  /* .hero__image{
+    overflow: hidden;
+    height: 350px;
+  } */
+  .hero__image:after{
+    width: 200vw;
+    height: 200vw;
+    bottom: -10%;
+    left: 40%;
+  }
+}
+
 /* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;
@@ -59,7 +97,8 @@
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+  /* @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden; */
+  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
 /* END: Hero styles */
 
@@ -142,7 +181,8 @@
 }
 
 .car-details__main-image {
-  @apply relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg;
+  /* @apply relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg; */
+  @apply relative w-full h-40 bg-cover bg-center rounded-lg;
 }
 /* END: Car Details styles */
 
