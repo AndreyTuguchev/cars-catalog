@@ -11,7 +11,7 @@
 
 //  https://www.youtube.com/watch?v=pUNSHPyVryU
 //  Current time:
-// https://youtu.be/pUNSHPyVryU?t=10243
+// https://youtu.be/pUNSHPyVryU?t=10824
 
 import Image from 'next/image';
 
@@ -41,7 +41,7 @@ let Hero = () => {
       <div className="hero__image-container">
         <div className="hero__image">
           <Image
-            src="/hero-image.png"
+            src="/hero-image-bmw.png"
             alt="hero"
             fill
             className="object-contain"
