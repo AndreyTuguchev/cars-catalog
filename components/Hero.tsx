@@ -2,12 +2,12 @@
 
 /**
  * Add API data caching for 24 hours to minimize the API calls
- *
+ * Save each image in /public/ directory and name it properly
  */
 
 //  https://www.youtube.com/watch?v=pUNSHPyVryU
 //  Current time:
-// https://youtu.be/pUNSHPyVryU?t=6922  --- file CarDetails.tsx
+// https://youtu.be/pUNSHPyVryU?t=8736   --- file SearchBar.tsx
 
 import Image from 'next/image';
 
